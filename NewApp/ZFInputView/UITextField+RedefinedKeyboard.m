@@ -57,7 +57,7 @@ static  char key_style;
     BOOL canEdit = YES;
     if ([self.delegate respondsToSelector:@selector(textField:shouldChangeCharactersInRange:replacementString:)]) {
         
-        canEdit = [self.delegate textField:self shouldChangeCharactersInRange:[self selectedRange] replacementString:@""];
+        canEdit = [self.delegate textField:self shouldChangeCharactersInRange:[self selectedRange] replacementString:string];
     }
     if (canEdit) {
         
