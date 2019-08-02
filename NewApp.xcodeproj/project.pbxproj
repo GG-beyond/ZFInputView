@@ -17,6 +17,9 @@
 		37C599F522F2CC420017986B /* NewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C599F422F2CC420017986B /* NewAppUITests.m */; };
 		37D30B8E22F3D56D00AFC68A /* UITextField+RedefinedKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D30B8A22F3D56D00AFC68A /* UITextField+RedefinedKeyboard.m */; };
 		37D30B8F22F3D56D00AFC68A /* ZFInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D30B8D22F3D56D00AFC68A /* ZFInputView.m */; };
+		37D30B9322F3E24100AFC68A /* xzf_input2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9022F3E24100AFC68A /* xzf_input2.gif */; };
+		37D30B9422F3E24100AFC68A /* xzf_input3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9122F3E24100AFC68A /* xzf_input3.gif */; };
+		37D30B9522F3E24100AFC68A /* xzf_input.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9222F3E24100AFC68A /* xzf_input.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		37D30B8B22F3D56D00AFC68A /* ZFInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFInputView.h; sourceTree = "<group>"; };
 		37D30B8C22F3D56D00AFC68A /* UITextField+RedefinedKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+RedefinedKeyboard.h"; sourceTree = "<group>"; };
 		37D30B8D22F3D56D00AFC68A /* ZFInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFInputView.m; sourceTree = "<group>"; };
+		37D30B9022F3E24100AFC68A /* xzf_input2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input2.gif; sourceTree = "<group>"; };
+		37D30B9122F3E24100AFC68A /* xzf_input3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input3.gif; sourceTree = "<group>"; };
+		37D30B9222F3E24100AFC68A /* xzf_input.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,9 @@
 				37D30B8A22F3D56D00AFC68A /* UITextField+RedefinedKeyboard.m */,
 				37D30B8B22F3D56D00AFC68A /* ZFInputView.h */,
 				37D30B8D22F3D56D00AFC68A /* ZFInputView.m */,
+				37D30B9222F3E24100AFC68A /* xzf_input.gif */,
+				37D30B9022F3E24100AFC68A /* xzf_input2.gif */,
+				37D30B9122F3E24100AFC68A /* xzf_input3.gif */,
 			);
 			path = ZFInputView;
 			sourceTree = "<group>";
@@ -253,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D30B9522F3E24100AFC68A /* xzf_input.gif in Resources */,
 				37C599DD22F2CC420017986B /* LaunchScreen.storyboard in Resources */,
+				37D30B9422F3E24100AFC68A /* xzf_input3.gif in Resources */,
 				37C599DA22F2CC420017986B /* Assets.xcassets in Resources */,
 				37C599D822F2CC400017986B /* Main.storyboard in Resources */,
+				37D30B9322F3E24100AFC68A /* xzf_input2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

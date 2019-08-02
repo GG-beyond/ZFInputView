@@ -31,7 +31,7 @@
         
         _textfield = [[UITextField alloc] initWithFrame:CGRectMake(20, 300, 200, 20)];
         _textfield.placeholder = @"请输入";
-        _textfield.keyboardStyle = ZFInputViewStyleDefault;
+        _textfield.keyboardStyle = ZFInputViewStyleIDNumber;
     }
     return _textfield;
 }
