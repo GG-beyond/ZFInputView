@@ -65,7 +65,6 @@ static  char key_style;
     }
 }
 
-
 #pragma mark - Getter && Setter
 
 //键盘控件
@@ -87,7 +86,6 @@ static  char key_style;
         self.zfInputView.inputDelegate = self;
     }
     self.inputView = self.zfInputView;
-    
 }
 - (ZFInputViewStyle)keyboardStyle{
     
