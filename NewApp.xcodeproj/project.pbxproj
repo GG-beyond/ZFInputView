@@ -20,6 +20,7 @@
 		37D30B9322F3E24100AFC68A /* xzf_input2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9022F3E24100AFC68A /* xzf_input2.gif */; };
 		37D30B9422F3E24100AFC68A /* xzf_input3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9122F3E24100AFC68A /* xzf_input3.gif */; };
 		37D30B9522F3E24100AFC68A /* xzf_input.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D30B9222F3E24100AFC68A /* xzf_input.gif */; };
+		37D90CF322FAC215002B5C17 /* xzf_input4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37D90CF222FAC215002B5C17 /* xzf_input4.gif */; };
 		37F19D3C22F955F9003DB958 /* UITextView+RedefinedKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F19D3B22F955F9003DB958 /* UITextView+RedefinedKeyboard.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		37D30B9022F3E24100AFC68A /* xzf_input2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input2.gif; sourceTree = "<group>"; };
 		37D30B9122F3E24100AFC68A /* xzf_input3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input3.gif; sourceTree = "<group>"; };
 		37D30B9222F3E24100AFC68A /* xzf_input.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input.gif; sourceTree = "<group>"; };
+		37D90CF222FAC215002B5C17 /* xzf_input4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xzf_input4.gif; sourceTree = "<group>"; };
 		37F19D3A22F955F9003DB958 /* UITextView+RedefinedKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+RedefinedKeyboard.h"; sourceTree = "<group>"; };
 		37F19D3B22F955F9003DB958 /* UITextView+RedefinedKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RedefinedKeyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +162,7 @@
 				37D30B9222F3E24100AFC68A /* xzf_input.gif */,
 				37D30B9022F3E24100AFC68A /* xzf_input2.gif */,
 				37D30B9122F3E24100AFC68A /* xzf_input3.gif */,
+				37D90CF222FAC215002B5C17 /* xzf_input4.gif */,
 			);
 			path = ZFInputView;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				37D30B9422F3E24100AFC68A /* xzf_input3.gif in Resources */,
 				37C599DA22F2CC420017986B /* Assets.xcassets in Resources */,
 				37C599D822F2CC400017986B /* Main.storyboard in Resources */,
+				37D90CF322FAC215002B5C17 /* xzf_input4.gif in Resources */,
 				37D30B9322F3E24100AFC68A /* xzf_input2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.58.NewAppa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.58.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -499,7 +503,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.58.NewAppa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.58.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
